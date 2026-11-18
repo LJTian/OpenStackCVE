@@ -1,0 +1,14 @@
+sqlite:
+  path: data/cve.db
+
+fetch:
+  lookback_days: 1825
+  sources:
+    - ossa
+    - nvd
+  base_url: https://security.openstack.org/ossa
+  list_url: https://security.openstack.org/ossalist.html
+  nvd:
+    api_base: https://services.nvd.nist.gov/rest/json/cves/2.0
+    keyword: OpenStack
+    # api_key:  # optional; or set env NVD_API_KEY

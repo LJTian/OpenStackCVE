@@ -1,0 +1,10 @@
+bin/
+tmp/
+data/
+*.exe
+*.test
+*.out
+.idea/
+.vscode/
+.env
+config.yaml

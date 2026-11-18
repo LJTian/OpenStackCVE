@@ -1,0 +1,14 @@
+.git
+.gitignore
+bin/
+tmp/
+data/
+*.md
+agent/
+.idea/
+.vscode/
+.env
+config.yaml
+config.yaml.bak
+*.test
+*.out

@@ -1,0 +1,8 @@
+sqlite:
+  path: data/cve.db
+
+fetch:
+  lookback_days: 180
+  source: ossa
+  base_url: https://security.openstack.org/ossa
+  list_url: https://security.openstack.org/ossalist.html
